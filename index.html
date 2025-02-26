@@ -13,6 +13,7 @@
         <!-- Google fonts-->
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <script defer src="script.js"></script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -235,7 +236,6 @@
                           </div>
                         </div>
                 
- 
                           
             <!-- Icon Divider-->
             <div class="divider-custom">
@@ -624,5 +624,22 @@
                 </div>
             </div>
         </div>
+        <div class="container">
+            <h1>My Course Subjects</h1>
+        <input type="text" id="search-bar" placeholder="Search for a subject..." onkeyup="filterCourses()">
+        <table>
+            <thead>
+                <tr>
+                    <th>YEAR TERM</th>
+                    <th>SUBJECT CODE</th>
+                    <th>DESCRIPTIVE TITLE</th>
+                    <th>CREDIT</th>
+                </tr>
+            </thead>
+            <tbody id="course-table-body">
+                <!-- Data will be injected here -->
+            </tbody>
+        </table>
+    
     </body>
 </html>
