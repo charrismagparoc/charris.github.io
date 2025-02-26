@@ -11060,5 +11060,41 @@ body , body  [data-bs-theme=light] {
   background-color: var(--bs-teal) !important;
 }
 
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  margin: 20px;
+}
+
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: hsl(196, 38%, 94%);
+  color: rgb(8, 5, 5);
+
+}
+#search-bar {
+  width: 60%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+
 
 
